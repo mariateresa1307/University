@@ -208,7 +208,7 @@ body {
 .about-us-section {
     /* background-color: #02557d; /* Fondo azul oscuro del diseño */
     color: #fff;
-    background-image: url(/img/fondo.png);
+    background-image: url(img/fondo.png);
     background-repeat: no-repeat;
     background-color: #02557d;
     background-position: right;
