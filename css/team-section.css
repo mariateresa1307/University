@@ -106,6 +106,7 @@
 
 .carousel-indicators {
     top: 210px !important; 
+    margin-top: 83px;
 }
 
 .carousel-indicators li {
@@ -138,6 +139,10 @@
     background-color: white; 
     color: orange;
     border-radius: 10px;
-
+    width: 50%;
+    justify-self: center;
+    margin-top: -21px;
+    z-index: 1;
+    position: relative;
     
 }
