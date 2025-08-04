@@ -11,17 +11,17 @@
  */
 
 .glide {
-    position: relative; 
+    position: relative;
 }
 
 .glide__arrows {
-    position: absolute; 
-    top: 50%; 
-    width: 100%; 
+    position: absolute;
+    top: 50%;
+    width: 100%;
     display: flex;
-    justify-content: space-between; 
-    transform: translateY(-50%); 
-    pointer-events: none; 
+    justify-content: space-between;
+    transform: translateY(-50%);
+    pointer-events: none;
 }
 
 .glide__arrow {
@@ -47,12 +47,21 @@
 
 
 .glide__arrow--left {
-    margin-left: -20px; 
+    margin-left: -20px;
 }
 
 .glide__arrow--right {
     margin-right: -20px;
 }
- /**/
 
- 
+/**/
+
+@media screen and (max-width: 800px) {
+    .Popular-us-section {
+        margin-top: 5rem !important;
+    }
+}
+
+.Popular-us-section {
+    margin-top: 3rem;
+}

@@ -1,10 +1,11 @@
 @keyframes zoomInOut {
-  0% {
-    transform: scale(1); 
-  }
-  100% {
-    transform: scale(1.2); 
-  }
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
 }
 
 
@@ -33,17 +34,32 @@
     text-align: center;
 }
 
+@media (max-width: 800px) {
+    .service-icon {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .service-icon img {
+        height: 32px !important;
+        width: 32px !important;
+    }
+
+    
+}
+
+
 .service-icon {
     width: 107px;
     height: 107px;
-    background-color: #ffffff; 
+    background-color: #ffffff;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto 20px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    overflow: hidden; 
+    overflow: hidden;
     transition: background-color 0.3s ease;
 }
 
@@ -51,12 +67,12 @@
 .service-icon img {
     height: 62px;
     width: 66px;
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
 }
 
 
 .service-icon:hover img {
-    transform: scale(1.2); 
+    transform: scale(1.2);
 }
 
 .service-icon:hover {
