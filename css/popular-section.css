@@ -1,0 +1,58 @@
+.display-2 {
+    font-size: 27px;
+    font-family: sans-serif;
+}
+
+
+/*
+ * =========================================================
+ * ESTILOS DE LAS FLECHAS DEL CARRUSEL
+ * =========================================================
+ */
+
+.glide {
+    position: relative; 
+}
+
+.glide__arrows {
+    position: absolute; 
+    top: 50%; 
+    width: 100%; 
+    display: flex;
+    justify-content: space-between; 
+    transform: translateY(-50%); 
+    pointer-events: none; 
+}
+
+.glide__arrow {
+    pointer-events: auto;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #dee2e6;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.glide__arrow:hover {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #fff;
+}
+
+
+.glide__arrow--left {
+    margin-left: -20px; 
+}
+
+.glide__arrow--right {
+    margin-right: -20px;
+}
+ /**/
+
+ 

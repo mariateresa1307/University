@@ -1,0 +1,143 @@
+/*
+ * =========================================================
+ * ESTILOS DE LA BARRA DE NAVEGACIÓN
+ * =========================================================
+ */
+
+/* Estado inicial: Transparente y texto blanco */
+#main-navbar {
+    background-color: transparent !important;
+    transition: background-color 0.5s ease;
+}
+
+
+#main-navbar .navbar-brand,
+#main-navbar .navbar-brand span,
+#main-navbar .navbar-toggler-icon,
+#main-navbar .nav-link {
+    color: #fff !important;
+    transition: color 0.5s ease;
+}
+
+#main-navbar a:hover,
+#main-navbar a:hover i,
+#main-navbar a:hover span {
+    color: #ffc107 !important;
+}
+
+#main-navbar.scrolled {
+    background-color: #02557d !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#main-navbar.scrolled .navbar-brand,
+#main-navbar.scrolled .navbar-brand span,
+#main-navbar.scrolled .navbar-toggler-icon,
+#main-navbar.scrolled .nav-link {
+    color: #fff !important;
+}
+
+/*
+ * =========================================================
+ * ESTILOS DE LOS ENLACES EN LA SECCIÓN DEL VIDEO (hero-section)
+ * =========================================================
+ */
+.hero-section-video .main-link {
+    color: #fff !important;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+/* EFECTO HOVER EN LOS ENLACES DEL MENÚ DENTRO DE HERO-SECTION */
+.hero-section-video .main-link:hover {
+    color: #ffc107 !important;
+}
+
+/*
+ * =========================================================
+ * ESTILOS DEL FOOTER
+ * =========================================================
+ */
+
+.bg-dark {
+    background-color: #02557d !important;
+}
+
+.footer-logo {
+    height: 60px; /* Ajusta el tamaño según tu logo */
+}
+.footer-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo-text {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.footer-heading {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #ffc107; /* Color amarillo */
+}
+
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #ffc107;
+    text-decoration: underline;
+}
+
+.list-unstyled li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-social-icons a {
+    color: #fff;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.footer-social-icons a:hover {
+    color: #ffc107;
+}
+
+.footer-divider {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.jose-silvera-logo {
+    max-width: 100px; /* Ajusta el tamaño del logo si es necesario */
+}
+
+/* Estilos específicos para el formulario del newsletter */
+.input-group .form-control {
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.input-group .btn-warning {
+    border-radius: 0 0.25rem 0.25rem 0;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #02557d;
+}
+.footer-link-contact {
+    color: #fff; /* Color inicial del enlace, blanco */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+/* Efecto hover: el color cambia a blanco */
+.footer-link-contact:hover {
+    color: #ffc107;
+}

@@ -1,0 +1,72 @@
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1); 
+  }
+  100% {
+    transform: scale(1.2); 
+  }
+}
+
+
+/* === ESTILOS PARA LA SECCIÓN DE SERVICES === */
+.services-section {
+    background-image: url('../img/BACKGROUND BENEFITS.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.services-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(13 46 63 / 66%);
+    z-index: -1;
+}
+
+.service-item {
+    padding: 20px;
+    text-align: center;
+}
+
+.service-icon {
+    width: 107px;
+    height: 107px;
+    background-color: #ffffff; 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden; 
+    transition: background-color 0.3s ease;
+}
+
+
+.service-icon img {
+    height: 62px;
+    width: 66px;
+    transition: transform 0.3s ease; 
+}
+
+
+.service-icon:hover img {
+    transform: scale(1.2); 
+}
+
+.service-icon:hover {
+    background-color: #ffc107;
+}
+
+.service-item h3 {
+    transition: color 0.3s ease;
+}
+
+.service-item:hover h3 {
+    color: #ffc107;
+}

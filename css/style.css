@@ -1,0 +1,310 @@
+
+body {
+    font-family: 'Roboto';
+}
+
+
+
+
+/* Estilo para las tarjetas */
+.card {
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    /* Efecto de "levantar" al pasar el mouse */
+}
+
+.navbar {
+    background: #02557d;
+    /* Color oscuro para la barra de navegación */
+    position: relative;
+}
+
+
+.navbar-brand {
+    font-weight: bold;
+    /* Hace que el texto del logo sea más destacado */
+  
+}
+
+.ui {
+    margin-top: 13px;
+    /* Espacio entre el logo y el texto */
+    margin-left: 50px;
+    /* Espacio entre el logo y el texto */
+}
+
+.nav-item {
+    margin-right: 15px;
+    /* Espacio entre los elementos del menú */
+}
+
+.display-6 {
+    margin-top: 120px;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+.display-2 {
+    font-size: 27px;
+    font-family: sans-serif;
+}
+
+.main-link {
+    color: #ffffff;
+    /* Color del texto del enlace */
+    text-decoration: none;
+    /* Elimina el subrayado del enlace */
+    font-weight: 400;
+
+}
+
+.section-links {
+    display: flex;
+    align-items: center;
+}
+
+.form-card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 375px;
+    width: 100%;
+
+
+}
+
+.card-img {
+    height: 43px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    background-color: #02557d;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.card-popular {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 3px 4px 5px rgb(0 0 0 / 14%);
+    width: 100%;
+    border: none;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.main-text {
+    font-family: poppins;
+    margin-top: 25px;
+    line-height: 60px;
+    font-size: 45px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.get-now {
+
+    border-radius: 50px;
+    width: 221px;
+    color: white;
+    font-weight: bold;
+    border-style: solid;
+    border-width: -5px;
+    border-color: white;
+}
+
+.get-now:hover {
+    color: white;
+}
+
+.form-imput {
+    justify-self: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.form-control {
+    border-radius: 16px;
+    height: 25px;
+    background-color: #8080805c;
+}
+
+.form-container {
+    margin-top: 17px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.send-button {
+    border-radius: 16px;
+    
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.send-button:hover {
+    color: white;
+}
+
+
+.read-button {
+    border-radius: 16px;
+    margin-left: 27px;
+    margin-right: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.read-button:hover {
+    color: white;
+}
+
+.title {
+    padding-top: 10px;
+    color: white;
+}
+
+.icon-top {
+    float: left;
+    margin-right: 14px;
+    justify-items: right;
+    font-size: 10px;
+    color: #ffc107;
+    margin-top: 11px;
+}
+
+.main-offer {
+    line-height: 64px;
+    font-size: 36px;
+    font-weight: bold;
+
+
+
+}
+
+.button-more {
+    width: 50% !important;
+    border-radius: 20px;
+    font-size: 22px;
+}
+
+.button-more:hover {
+    color: white;
+}
+
+/* === ESTILOS PARA LA SECCIÓN "ACERCA DE" === */
+.about-us-section {
+    /* background-color: #02557d; /* Fondo azul oscuro del diseño */
+    color: #fff;
+    background-image: url(/img/fondo.png);
+    background-repeat: no-repeat;
+    background-color: #02557d;
+    background-position: right;
+}
+
+.about-content h2 {
+    font-weight: 600;
+    /* Hace que el título sea más grueso */
+}
+
+.about-tag {
+    color: #ffc107;
+    /* Color amarillo del punto y el texto */
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.about-tag .bi-circle-fill {
+    font-size: 0.5rem;
+    /* Tamaño del punto decorativo */
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.linea-decorativa-yellow {
+    display: block;
+    width: 321px;
+    /* Ancho de la línea decorativa */
+    height: 3px;
+    background-color: #ffc107;
+    /* Color amarillo */
+    margin-top: 10px;
+}
+
+.about-image-wrapper {
+    position: relative;
+    padding: 20px;
+    z-index: 1;
+}
+
+.about-image-wrapper img {
+    border-radius: 1.25rem !important;
+    border: 5px solid;
+    color: #ffffffbd;
+    z-index: -1;
+    position: relative;
+}
+
+/* Efecto de borde decorativo para la imagen */
+.about-image-wrapper::before {
+    content: "";
+    position: absolute;
+    margin-top: 20px;
+    left: 12px;
+    width: 90%;
+    height: 92%;
+    border: 6px solid #ffc10778;
+    border-radius: 10px;
+    transform: rotate(5deg);
+    z-index: -1;
+}
+
+/* Estilos del botón */
+.btn-warning {
+    background-color: #ffc107;
+    /* Color naranja/amarillo */
+    border-color: #ffffff;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+
+}
+
+.btn-warning:hover {
+    color: white;
+}
+
+.btn-warning:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5);
+    color: white;
+    /* Sombra de enfoque */
+}
+
+.paragraph {
+    font-size: 27px;
+    margin-top: 60px;
+    font-family: roboto;
+}
+
+
+.herovideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
